@@ -3,12 +3,10 @@ package main
 import (
 	"io/ioutil"
 	"bytes"
-
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
 	"fmt"
 	"os"
-
 	"strings"
 	"strconv"
 	"gopkg.in/ini.v1"
